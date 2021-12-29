@@ -1,6 +1,13 @@
+
+[![Arduino CI](https://github.com/RobTillaart/uv-sensor/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/RobTillaart/uv-sensor/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/RobTillaart/uv-sensor.svg?maxAge=3600)](https://github.com/RobTillaart/uv-sensor/releases)
+
+
 # uv-sensor
 
-Arduino sketch for analog UV sensor
+Arduino sketch for analog UV sensor.
+
 
 ## Description
 
@@ -29,6 +36,8 @@ The sensor has an analogue output that is roughly linear with the UV-index (sunl
 
 From this table the formula is derived (spreadsheet) which is pretty linear between UV 1 and 11.
 
+Related to: https://github.com/RobTillaart/AnalogUVSensor
+
 
 ### Notes
 
@@ -49,14 +58,11 @@ https://en.wikipedia.org/wiki/Ultraviolet
 
 ### Future
 
-- verify vs calibrated sensor
-- investigate angle sensitivity (if the UV light comes from an angle)
-- investigate response time to stabilize (e.g. does it react fast on clouds)
+- verify vs calibrated sensor.
+- investigate angle sensitivity (if the UV light comes from an angle).
+- investigate response time to stabilize (e.g. does it react fast on clouds).
 - investigate with different light sources (UVled, TL, sunlight).
-
-
-- make a class
-- allow use of internal / external ADC
-- add a pin to control the power of the sensor (low energy applications)
+- allow use of internal / external ADC.
+- add a pin to control the power of the sensor (low energy applications).
 - 
 
