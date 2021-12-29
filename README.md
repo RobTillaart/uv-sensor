@@ -58,14 +58,11 @@ https://en.wikipedia.org/wiki/Ultraviolet
 
 ### Future
 
-- verify vs calibrated sensor
-- investigate angle sensitivity (if the UV light comes from an angle)
-- investigate response time to stabilize (e.g. does it react fast on clouds)
+- verify vs calibrated sensor.
+- investigate angle sensitivity (if the UV light comes from an angle).
+- investigate response time to stabilize (e.g. does it react fast on clouds).
 - investigate with different light sources (UVled, TL, sunlight).
-
-
-- make a class
-- allow use of internal / external ADC
-- add a pin to control the power of the sensor (low energy applications)
+- allow use of internal / external ADC.
+- add a pin to control the power of the sensor (low energy applications).
 - 
 
