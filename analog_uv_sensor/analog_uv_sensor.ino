@@ -5,17 +5,20 @@
 // PURPOSE: demo
 //    DATE: 2021-09-21
 
+
 void setup()
 {
   Serial.begin(115200);
   Serial.println(__FILE__);
 }
 
+
 void loop()
 {
   Serial.println(indexUV(A0, 1023, 5.0));  // assume UNO analog port
   delay(1000);
 }
+
 
 float indexUV(uint16_t pin, int16_t analog_max, float voltage_max)
 {
@@ -40,3 +43,4 @@ float indexUV(uint16_t pin, int16_t analog_max, float voltage_max)
 
 
 // -- END OF FILE --
+

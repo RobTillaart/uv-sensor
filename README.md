@@ -1,6 +1,8 @@
+
 # uv-sensor
 
-Arduino sketch for analog UV sensor
+Arduino sketch for analog UV sensor.
+
 
 ## Description
 
@@ -28,6 +30,8 @@ The sensor has an analogue output that is roughly linear with the UV-index (sunl
 |  1.170> |    11    |
 
 From this table the formula is derived (spreadsheet) which is pretty linear between UV 1 and 11.
+
+Related to: https://github.com/RobTillaart/AnalogUVSensor
 
 
 ### Notes
