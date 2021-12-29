@@ -1,4 +1,9 @@
 
+[![Arduino CI](https://github.com/RobTillaart/uv-sensor/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/RobTillaart/uv-sensor/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/RobTillaart/uv-sensor.svg?maxAge=3600)](https://github.com/RobTillaart/uv-sensor/releases)
+
+
 # uv-sensor
 
 Arduino sketch for analog UV sensor.
